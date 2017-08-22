@@ -56,6 +56,7 @@ class App {
     private routes(): void {
 
         let router = express.Router();
+        this.express.use('/', router);
 
         router.get('/', HelloWorldController.get);
         router.post('/', HelloWorldController.create);
