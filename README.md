@@ -4,18 +4,22 @@
 
 ### [AWS CLI Installation](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
-```
+```bash
 pip install awscli --upgrade --user
 aws --version
 ```
 
-### [AWS Profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
+### [AWS Profiles](https://serverless.com/framework/docs/providers/aws/guide/credentials/)
+
+```bash
+aws configure
+```
 
 ![](docs/profiles.png)
 
 ### [Typescript](https://www.typescriptlang.org/#download-links)
 
-```
+```bash
 npm install -g typescript
 
 # Compile the typescript files
@@ -27,7 +31,8 @@ tsc
 
 
 ### Serve Serverless Locally
-```
+
+```bash
 serverless offline start
 
 curl http://localhost:3000/
