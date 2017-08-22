@@ -26,6 +26,13 @@ npm install -g typescript
 tsc
 ```
 
+### [Serverless](https://github.com/serverless/serverless) 
+
+```bash
+npm install
+npm install -g serverless
+```
+
 
 ## Usage
 
@@ -55,6 +62,8 @@ serverless deploy --stage dev --aws-profile your-aws-profile
 
 
 ## Articles & Resources
+
+[serverless.yml Reference](https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/)
 
 [Inspiration](https://medium.com/trisfera/deploying-an-express-application-to-aws-lambda-the-easy-way-fa5fbef190ba)
 
