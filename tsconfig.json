@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "app",
+        "allowJs": false,
+        "alwaysStrict": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "bin",
+        "views",
+        "**/*.spec.ts",
+        ".serverless",
+        "app"
+    ]
+}

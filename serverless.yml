@@ -1,0 +1,23 @@
+# serverless.yml
+service: serverlessexample
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: us-east-1
+  provider:
+    ENV: ${self:custom.secrets.ENV}
+    NODE_ENV: ${self:custom.secrets.ENV}
+custom:
+  secrets: ${file(secrets.${opt:stage, self:provider.stage}.yml)}
+  simulate:
+    services: docker-compose.yml
+plugins:
+  - serverless-secrets-plugin
+  - serverless-offline
+functions:
+  api:
+    handler: app/lambda.handler
+    events:
+      - http:
+          path: /{greedy+}
+          method: ANY

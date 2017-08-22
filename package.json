@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/aws-serverless-express": "^2.1.0",
+    "@types/debug": "^0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.31",
+    "serverless": "^1.15.3",
+    "serverless-offline": "^3.14.2",
+    "serverless-secrets-plugin": "^0.0.1",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "api-gateway-policy-gen": "^1.0.1",
+    "aws-sdk": "^2.71.0",
+    "aws-serverless-express": "^3.0.2",
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
