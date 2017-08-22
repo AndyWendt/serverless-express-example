@@ -17,6 +17,10 @@ aws configure
 
 ![](docs/profiles.png)
 
+### Node
+
+Use [NVM](https://github.com/creationix/nvm) to manage node versions.  I'd recommend ~6.10 since that's what AWS is using.  
+
 ### [Typescript](https://www.typescriptlang.org/#download-links)
 
 ```bash
