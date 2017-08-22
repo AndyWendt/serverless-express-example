@@ -1,9 +1,36 @@
 # Serverless Express Example
 
+## Installation
+
+### [AWS CLI Installation](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+
+```
+pip install awscli --upgrade --user
+aws --version
+```
+
+### [AWS Profiles](http://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html)
+
+![](docs/profiles.png)
+
+### [Typescript](https://www.typescriptlang.org/#download-links)
+
+```
+npm install -g typescript
+
+# Compile the typescript files
+tsc
+```
+
+
+## Usage
+
 
 ### Serve Serverless Locally
 ```
 serverless offline start
+
+curl http://localhost:3000/
 ```
 
 
