@@ -56,9 +56,16 @@ serverless invoke local --function api
 
 ### Deployment
 
-```
+```bash
 serverless deploy --stage dev --aws-profile your-aws-profile
 ```
+
+### Removal
+
+```bash
+serverless remove --stage dev --aws-profile your-aws-profile
+```
+
 
 
 ## Articles & Resources
